@@ -1,0 +1,91 @@
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 100 to 700  */
+
+.roboto-mono-font {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+html,
+body {
+  font-size: 16px;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+h1 {
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 500;
+  text-align: left;
+  padding-top: 15px;
+}
+
+address {
+  text-align: center;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.25em;
+  color: #4f3674; /* Styling for visited links */
+}
+
+a:hover {
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: "Libre Baskerville", serif;
+  text-decoration: underline;
+  background-color: #7f085c;
+  color: white;
+}
+
+a.website-link {
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #4f3674;
+}
+
+.sentence {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.intro {
+  text-indent: 2em;
+}
