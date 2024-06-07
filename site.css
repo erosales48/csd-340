@@ -3,7 +3,6 @@
 
 .roboto-mono-font {
     font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
 }
@@ -26,6 +25,15 @@
   html,
   body {
     font-size: 16px;
+    background-color: rgb(168, 185, 231);
+  }
+  anchor {
+    color: rgb(56, 25, 168);
+    text-decoration: none;
+  }
+  :any-link {
+    color: rgb(56, 25, 168);
+    text-decoration: none;
   }
   
   p {
@@ -34,7 +42,7 @@
   }
   h1, h2, h3, h4 {
     font-family: "Roboto Mono", monospace, sans-serif;
-    background-color: #4CAF50; /* Background color of your choice */
+    background-color: #416142; /* Background color of your choice */
     color: #fff; /* Font color for better readability */
     border: 1px solid #D6A800; /* Border color and style */
     padding: 10px; /* Padding around the text */
@@ -45,26 +53,27 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     font-size: 2em;
+   
 }
 
 h2 {
     font-size: 1.5em;
+ 
 }
 
 h3 {
     font-size: 1.17em;
+ 
 }
 
 h4 {
     font-size: 1em;
+ 
 }
   
 .container {
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
-    p.container {
-        font-weight: 400;
-        line-height: 1.4em;
-    }
+ 
 }
