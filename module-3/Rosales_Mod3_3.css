@@ -47,6 +47,7 @@
     border: 1px solid red;
     padding: 10px;
     border-radius: 15px;
+    margin-right: 10px;
   }
 
   .right-side {
@@ -56,6 +57,7 @@
     border: 1px dashed red;
     padding: 10px;
     border-radius: 15px;
+    margin-left: 50px;
   }
 
   .full-width {
