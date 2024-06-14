@@ -28,7 +28,7 @@
     background-color: rgb(168, 185, 231);
   }
   anchor {
-    color: rgb(56, 25, 168);
+    color: rgb(255, 255, 0);
     text-decoration: none;
   }
   :any-link {
