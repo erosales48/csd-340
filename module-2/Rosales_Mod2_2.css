@@ -28,6 +28,7 @@
 html,
 body {
   font-size: 16px;
+  background-color: whitesmoke;
 }
 
 p {
@@ -37,8 +38,11 @@ p {
 
 h1 {
   font-family: "Roboto Mono", monospace, sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
+  background-color: #416142; /* Background color of your choice */
+  color: #ff0; /* Font color for better readability */
+  border: 1px solid #D6A800; /* Border color and style */
+  padding: 10px; /* Padding around the text */
+  border-radius: 10px;
   text-align: center;
 }
 
@@ -88,4 +92,8 @@ a.website-link {
 
 .intro {
   text-indent: 2em;
+}
+.footer {
+  text-align: right;
+  width: 100%;
 }

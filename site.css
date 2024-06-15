@@ -25,14 +25,14 @@
   html,
   body {
     font-size: 16px;
-    background-color: rgb(168, 185, 231);
+    background-color: rgb(29, 30, 31););
   }
   anchor {
     color: rgb(255, 255, 0);
     text-decoration: none;
   }
   :any-link {
-    color: rgb(255, 255, 0);
+    color: cornsilk;
     text-decoration: none;
   }
   
@@ -43,9 +43,11 @@
   h1, h2, h3, h4 {
     font-family: "Roboto Mono", monospace, sans-serif;
     background-color: #416142; /* Background color of your choice */
-    color: #f00; /* Font color for better readability */
+    color: #ff0; /* Font color for better readability */
     border: 1px solid #D6A800; /* Border color and style */
     padding: 10px; /* Padding around the text */
+    border-radius: 10px;
+    border-width: auto;
 }
 
 h1 {
