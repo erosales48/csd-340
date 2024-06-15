@@ -27,6 +27,71 @@ body {
     font-size: 16px;
     background-color: azure;
 }
+
+.container {
+    text-align: center;
+}
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5%;
+    align-items: center;
+    background-color: rgb(49, 51, 52);
+    padding: 10px;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 3px solid red;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-family: "Roboto Mono", monospace, sans-serif;
+    background-color: #416142; /* Background color of your choice */
+    color: #ff0; /* Font color for better readability */
+    border: 1px solid #D6A800; /* Border color and style */
+    padding: 10px; /* Padding around the text */
+    border-radius: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Libre Baskerville", serif;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+} 
+
+figure {
+    text-align: center;  
+}
+
+figcaption {
+    color: white;
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 anchor {
     color: rgb(56, 25, 168);
     text-decoration: none;
@@ -35,81 +100,3 @@ anchor {
     color: rgb(56, 25, 168);
     text-decoration: none;
 }
-
-.container {
-    text-align: center;
-}
-
-.left-side {
-    display: inline-block;
-    width: 45%;
-    vertical-align: top;
-    border: 1px solid red;
-    padding: 10px;
-    border-radius: 15px;
-    margin-right: 10px;
-}
-
-.right-side {
-    display: inline-block;
-    width: 45%;
-    vertical-align: top;
-    border: 1px dashed red;
-    padding: 10px;
-    border-radius: 15px;
-    margin-left: 50px;
-}
-
-.full-width {
-    width: 100%;
-    margin-top: 60px;
-    float: right;
-    margin-bottom: 20px;
-    text-align: right;
-}
-
-p {
-    font-weight: 300;
-    line-height: 1.4em;
-}
-
-h1 {
-    font-family: "Roboto Mono", monospace, sans-serif;
-    background-color: #416142; /* Background color of your choice */
-    color: #fff; /* Font color for better readability */
-    border: 1px solid #D6A800; /* Border color and style */
-    padding: 10px; /* Padding around the text */
-}
-
-h3 {
-    font-weight: 500;
-}
-
-ol {
-    font-weight: 300;
-    border-radius: 15px;
-}
-
-ol, ol li {
-    list-style: numeric;
-    list-style-position: inside;
-}
-
-ul {
-    padding: 10px;
-    border-radius: 15px;
-}
-
-ul, ul li {
-    list-style: upper-roman;
-    list-style-position: inside;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
