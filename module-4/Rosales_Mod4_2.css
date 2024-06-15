@@ -25,17 +25,14 @@
 html,
 body {
     font-size: 16px;
-    background-color: azure;
-}
-
-.container {
     text-align: center;
+    background-color: darkslategray;
 }
 
 #image-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 5%;
+    margin-top: 10%;
     align-items: center;
     background-color: rgb(49, 51, 52);
     padding: 10px;
@@ -60,13 +57,16 @@ h1 {
     color: #ff0; /* Font color for better readability */
     border: 1px solid #D6A800; /* Border color and style */
     padding: 10px; /* Padding around the text */
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2em;
 }
 
 h3 {
     font-family: "Libre Baskerville", serif;
-    color: white;
+    color: rgba(255, 220, 220, .75);
     font-weight: 700;
     text-align: center;
 } 
@@ -76,8 +76,10 @@ figure {
 }
 
 figcaption {
-    color: white;
+    color: rgb(255, 255, 255, 1);
     text-align: center;
+    font-style: italic;
+    font-size: .75em;
 }
 
 .full-width {
@@ -97,6 +99,6 @@ anchor {
     text-decoration: none;
 }
 :any-link {
-    color: rgb(56, 25, 168);
+    color: #FF0;
     text-decoration: none;
 }

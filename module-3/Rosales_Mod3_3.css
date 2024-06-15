@@ -81,6 +81,9 @@
     padding: 10px; /* Padding around the text */
     text-align: center; /* Text */
     border-radius: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2em;
   }
   
   h3 {
